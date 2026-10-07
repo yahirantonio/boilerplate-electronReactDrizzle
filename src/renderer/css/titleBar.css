@@ -1,0 +1,33 @@
+.titlebar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  background: #18181b;
+  color: white;
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+.window-controls {
+  display: flex;
+  height: 100%;
+  -webkit-app-region: no-drag;
+}
+
+.window-controls button {
+  width: 46px;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font-size: 18px;
+}
+
+.window-controls button:hover {
+  background: #333338;
+}
+
+.window-controls button:last-child:hover {
+  background: #c42b1c;
+}
